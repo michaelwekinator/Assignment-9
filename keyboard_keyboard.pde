@@ -19,7 +19,7 @@ void setup() {
   smooth();
   
   /* start oscP5, listening for incoming messages at port 12000 */
-  oscP5 = new OscP5(this,9000);
+  oscP5 = new OscP5(this,12000);
   dest = new NetAddress("127.0.0.1",6448);
   
 }
